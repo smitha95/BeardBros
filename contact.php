@@ -1,6 +1,7 @@
 <?php include 'templates/header.php'; ?>
+<div style="margin-right:10px;">
 
-<form id="contact-form" method="post" style="margin-right:10px;">
+<form id="contact-form" method="post">
       <h4>Name:</h4>
       <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
       <h4>Phone:</h4>
@@ -12,5 +13,5 @@
       <div class="g-recaptcha" data-sitekey="6Lc7cVMUAAAAAM1yxf64wrmO8gvi8A1oQ_ead1ys" class="form-control" style="width:100%;"></div>
       <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
 </form>
-
+</div>
 <?php include 'templates/footer.php'; ?>
