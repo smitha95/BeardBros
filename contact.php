@@ -1,4 +1,4 @@
-<?php include '/templates/header.php' ?>
+<?php include 'templates/header.php'; ?>
 
 <form id="contact-form" method="post">
       <h4>Name:</h4>
@@ -13,4 +13,4 @@
       <button type="button" onClick="submitToAPI(event)" class="btn btn-lg" style="margin-top:20px;">Submit</button>
 </form>
 
-<?php include '/templates/footer.php' ?>
+<?php include 'templates/footer.php'; ?>
