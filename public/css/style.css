@@ -10,7 +10,8 @@ h1 {
 }
 
 p {
-  padding: 1rem;
+  width: 1rem;
+  height: 1rem;
   border: 2px solid #000000;
   border-radius: 5px;
   /*outline: 2px solid #000000;*/
