@@ -6,7 +6,7 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Some-title</title>
+	<title>Beard Bros</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,49 +24,27 @@
              <span class="icon-bar"></span>
            </button>
            <!-- Brand image or name-->
-           <a class="navbar-brand" href="index.php">Brand</a>
+           <a class="navbar-brand" href="index.php">Beard Bros</a>
          </div>
 
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav">
-             <li class="active"><a href="#">Link 1 <span class="sr-only">(current)</span></a></li>
-             <li><a href="#">Link 2</a></li>
-             <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown 1<span class="caret"></span></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">Action</a></li>
-                 <li><a href="#">Another action</a></li>
-                 <li><a href="#">Something else here</a></li>
-                 <li role="separator" class="divider"></li>
-                 <li><a href="#">Separated link</a></li>
-                 <li role="separator" class="divider"></li>
-                 <li><a href="#">One more separated link</a></li>
-               </ul>
-             </li>
+             <li class="active"><a href="index.php">Home<span class="sr-only">(current)</span></a></li>
+             <li><a href="#">Products</a></li>
+						 <li><a href="#">Customers</a></li>
            </ul>
-           <form class="navbar-form navbar-left">
-             <div class="form-group">
-               <input type="text" class="form-control" placeholder="Search">
-             </div>
-             <button type="submit" class="btn btn-default">Search</button>
-           </form>
-           <ul class="nav navbar-nav navbar-right">
-             <li class="dropdown">
-               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Profile <span class="caret"></span></a>
-               <ul class="dropdown-menu">
-                 <li><a href="#">Profile</a></li>
-                 <li><a href="#">Settings</a></li>
-                 <li><a href="#">Payment</a></li>
-                 <li role="separator" class="divider"></li>
-                 <li><a href="#">Separated link</a></li>
-               </ul>
-             </li>
-           </ul>
-           <ul class="nav navbar-nav navbar-right">
-             <li><a href="create.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-             <li><a href="login.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-           </ul>
+					 <ul class="nav navbar-nav navbar-right">
+					 	<li><a href="#">About</a></li>
+					 	<li><a href="#">Blog</a></li>
+					 	<li><a href="#">Contact</a></li>
+					</ul>
+					<form class="navbar-form navbar-right">
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Search</button>
+					</form>
          </div><!-- /.navbar-collapse -->
        </div><!-- /.container-fluid -->
      </nav>
