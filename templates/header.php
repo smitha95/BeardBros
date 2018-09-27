@@ -37,7 +37,7 @@
 					 <ul class="nav navbar-nav navbar-right">
 					 	<li><a href="#">About</a></li>
 					 	<li><a href="#">Blog</a></li>
-					 	<li><a href="#">Contact</a></li>
+					 	<li><a href="contact.php">Contact</a></li>
 					</ul>
 					<form class="navbar-form navbar-right">
 						<div class="form-group">
