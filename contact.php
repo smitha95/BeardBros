@@ -1,6 +1,6 @@
 <?php include 'templates/header.php'; ?>
 
-<form id="contact-form" method="post">
+<form id="contact-form" method="post" style="margin-right:10px;">
       <h4>Name:</h4>
       <input type="text" style="height:35px;" id="name-input" placeholder="Enter name here…" class="form-control" style="width:100%;" /><br/>
       <h4>Phone:</h4>
