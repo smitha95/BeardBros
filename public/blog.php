@@ -1,5 +1,5 @@
-<?php include 'templates/header.php' ?>
+<?php include 'templates/header.php'; ?>
 
-<h1 style="text-align:center;">Blog</h1>
+<h1>Blog</h1>
 
-<?php include 'templates/footer.php' ?>
+<?php include 'templates/footer.php'; ?>
