@@ -9,7 +9,7 @@ h1 {
   text-align: center;
 }
 
-p {
+p.home {
   width: 10rem;
   height: 10rem;
   border: 2px solid #000000;
