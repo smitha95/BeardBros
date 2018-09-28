@@ -1,22 +1,37 @@
-*{
-  font-family: Georgia;
+
+.navbar-default {
+  background-color: #2A3132;
+  border-color: #763626;
+  font-family: Georgia, sans-serif;
 }
+
+.navbar-default .navbar-nav > li > a{
+  color:#90AFC5;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+  color: #336B87;
+}
+
+
 
 body{
   background-color: #90ADC5;
   font-family: Georgia;
 }
 
-nav.navbar-inverse {
+
+.btn-default {
+  color: #90AFC5;
   background-color: #2A3132;
+  border-color: #763626;
+
 }
 
-.navbar .navbar-nav li > a{
-  color: #90AFC5 !important;
-}
-
-.navbar .navbar-brand {
-color: #90AFC5 !important;
+.btn-default:hover{
+  color: #90AFC5;
+  background-color: #336B87;
+  border-color: #763626;
 }
 
 #footer {
