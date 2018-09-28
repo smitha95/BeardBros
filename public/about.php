@@ -5,7 +5,6 @@
     margin:0 auto;
     padding:0px;
     text-align:center;
-    color: #000000;
     width:100%;
     font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
   }
@@ -57,7 +56,7 @@
     box-sizing:border-box;
     border-radius:10px;
     list-style-type:none;
-    color:white;
+    color: #000000;
     font-size:15px;
   }
 
