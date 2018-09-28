@@ -8,7 +8,6 @@
           We are two friends with a love for development together we created the Beard Bros!
         </p>
       </div>
-    </div>
     <div class="col-md-4">
         <h1><a href="austin.php">Austin</a></h1>
         <div class="center-block">
