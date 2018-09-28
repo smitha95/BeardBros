@@ -7,21 +7,24 @@
     text-align:center;
     width:100%;
     font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
-    background-color:silver;
   }
+
   #wrapper{
     margin:0 auto;
     padding:0px;
     text-align:center;
     width:995px;
   }
+
   #wrapper h1{
     margin-top:50px;
     font-size:45px;
   }
+
   #wrapper p{
     font-size:16px;
   }
+
   #timeline{
     position:relative;
     width:700px;
@@ -29,6 +32,7 @@
     float:left;
     margin-left:145px;
   }
+
   #timeline_bar{
     padding: 0;
     list-style: none;
@@ -40,13 +44,14 @@
     background-color:black;
     border-radius:10px;
   }
+
   #timeline li{
     position:relative;
     margin-top:20px;
     margin-bottom:20px;
     width:330px;
     height:70px;
-    background-color:black;
+    background-color:#A1A1A1;
     padding:15px;
     box-sizing:border-box;
     border-radius:10px;
@@ -54,13 +59,16 @@
     color:white;
     font-size:15px;
   }
+
   #timeline li:nth-child(odd){
     margin-right:10px;
     right:-10px;
   }
+
   #timeline li:nth-child(even){
     left:370px;
   }
+
   </style>
 
 
