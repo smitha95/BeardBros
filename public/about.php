@@ -41,7 +41,7 @@
     bottom: 0;
     left: 50%;
     width: 10px;
-    background-color:black;
+    background-color:#763626;
     border-radius:10px;
   }
 
@@ -51,7 +51,7 @@
     margin-bottom:20px;
     width:330px;
     height:80px;
-    background-color:#A1A1A1;
+    background-color:#336B87;
     padding:15px;
     box-sizing:border-box;
     border-radius:10px;
