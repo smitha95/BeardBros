@@ -4,14 +4,14 @@
   body{
     margin:0 auto;
     padding:0px;
-    text-align:center;
+    /*text-align:center;*/
     width:100%;
     font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
   }
 
   #wrapper{
     margin:0 auto;
-    padding:0px;
+    padding-bottom:500px;
     text-align:center;
     width:995px;
   }
@@ -70,7 +70,27 @@
   }
 
   </style>
+  <div class="wrapper container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>Austin</h1>
+        <div class="center-block">
 
+          <p class="home"><span style="font-weight:bold;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur tortor quis augue faucibus tincidunt. Mauris pretium vitae nibh et pulvinar. Quisque vel vulputate sapien. Sed a odio et enim feugiat facilisis a ac elit. Pellentesque in lorem pulvinar, iaculis felis ut, mollis lorem. Nullam id dolor id orci cursus feugiat vel id purus. Aliquam sit amet quam in ligula viverra vulputate.</p>
+
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <h1>Isaac</h1>
+          <div class="center-block">
+              <p class="home"><span style="font-weight:bold;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur efficitur tortor quis augue faucibus tincidunt. Mauris pretium vitae nibh et pulvinar. Quisque vel vulputate sapien. Sed a odio et enim feugiat facilisis a ac elit. Pellentesque in lorem pulvinar, iaculis felis ut, mollis lorem. Nullam id dolor id orci cursus feugiat vel id purus. Aliquam sit amet quam in ligula viverra vulputate.</p>
+
+          </div>
+        </div>
+      </div>
+  </div>
 
 
 

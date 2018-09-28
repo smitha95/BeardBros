@@ -18,6 +18,7 @@
 body{
   background-color: #90ADC5;
   font-family: Georgia;
+  padding-bottom: 10rem;
 }
 
 
@@ -41,13 +42,29 @@ body{
   padding-top: 1rem;
 }
 
+.com-sm-6 {
+  column-width: 60px;
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 h1 {
   text-align: center;
   color: #2A3132;
 }
 
 .center-block {
-    width:40rem;
+    width:35rem;
     padding:1rem;
 }
 
