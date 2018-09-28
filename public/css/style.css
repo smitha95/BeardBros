@@ -21,11 +21,15 @@ body{
   padding-bottom: 10rem;
 }
 
+.form-control{
+    padding: 0 20px;
+}
 
 .btn-default {
   color: #90AFC5;
   background-color: #2A3132;
   border-color: #763626;
+  margin-left: 2.5rem;
 
 }
 
@@ -42,7 +46,7 @@ body{
   padding-top: 1rem;
 }
 
-.com-sm-6 {
+.com-md-4 {
   column-width: 60px;
 }
 
@@ -60,6 +64,10 @@ body{
 
 h1 {
   text-align: center;
+  color: #2A3132;
+}
+
+h1 > a {
   color: #2A3132;
 }
 
