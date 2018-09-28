@@ -1,3 +1,4 @@
+<?php include 'counter.php'; ?>
 <!doctype html>
 <html lang="en">
 
@@ -35,16 +36,28 @@
 						 <li><a href="customers.php">Customers</a></li>
            </ul>
 					 <ul class="nav navbar-nav navbar-right">
-					 	<li><a href="about.php">About</a></li>
-					 	<li><a href="blog.php">Blog</a></li>
-					 	<li><a href="contact.php">Contact</a></li>
-					</ul>
-					<form class="navbar-form navbar-right">
-						<div class="form-group">
-							<input type="text" class="form-control" placeholder="Search">
-						</div>
-						<button type="submit" class="btn btn-default">Search</button>
-					</form>
-         </div><!-- /.navbar-collapse -->
-       </div><!-- /.container-fluid -->
+						 <li>
+							 <div class="dropdown">
+						 			<button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
+										<div class="dropdown-content">
+											<a href="about.php">Beard Bros</a>
+											<a href="#">Austin</a>
+											<a href="#">Isaac</a>
+										</div>
+								</div>
+							</li>
+					 		<li><a href="blog.php">Blog</a></li>
+					 		<li><a href="contact.php">Contact</a></li>
+							<li><a><?php echo "$count" ;
+							echo " total page views" ;
+							echo "\n" ;?></a></li>
+						</ul>
+						<form class="navbar-form navbar-right">
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Search">
+							</div>
+							<button type="submit" class="btn btn-default">Search</button>
+						</form>
+         	</div><!-- /.navbar-collapse -->
+       	</div><!-- /.container-fluid -->
      </nav>
