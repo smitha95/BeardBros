@@ -48,9 +48,6 @@
 							</li>
 					 		<li><a href="blog.php">Blog</a></li>
 					 		<li><a href="contact.php">Contact</a></li>
-							<li><a><?php echo "$count" ;
-							echo " total page views" ;
-							echo "\n" ;?></a></li>
 						</ul>
 						<form class="navbar-form navbar-right">
 							<div class="form-group">

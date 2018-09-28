@@ -11,6 +11,10 @@
             $curYear = date('Y'); // Keeps the second year updated
             echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
             ?> Copyright.
+            <br>
+            <?php echo "$count" ;
+            echo " total page views" ;
+            echo "\n" ;?>
           </div>
         </div>
       </div>
