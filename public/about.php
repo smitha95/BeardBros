@@ -5,6 +5,7 @@
     margin:0 auto;
     padding:0px;
     text-align:center;
+    color: #000000;
     width:100%;
     font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
   }
@@ -75,7 +76,7 @@
 
 
   <div id="wrapper">
-
+    <h1>Beard Bros timeline</h1>
     <div id="timeline">
       <div id="timeline_bar">
       </div>
