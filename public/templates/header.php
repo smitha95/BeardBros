@@ -40,9 +40,11 @@
 							 <div class="dropdown">
 						 			<button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
 										<div class="dropdown-content">
-											<a href="about.php">Beard Bros</a>
+											<a href="about.php">About</a>
 											<a href="austin.php">Austin</a>
 											<a href="isaac.php">Isaac</a>
+											<hr style="border-top: 1px dashed #763626;">
+											<a href="timeline.php">Timeline</a>
 										</div>
 								</div>
 							</li>
