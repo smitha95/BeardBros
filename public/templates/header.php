@@ -41,8 +41,8 @@
 						 			<button class="dropbtn">About<i class="fa fa-caret-down"></i></button>
 										<div class="dropdown-content">
 											<a href="about.php">Beard Bros</a>
-											<a href="#">Austin</a>
-											<a href="#">Isaac</a>
+											<a href="austin.php">Austin</a>
+											<a href="isaac.php">Isaac</a>
 										</div>
 								</div>
 							</li>
