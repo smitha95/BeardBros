@@ -79,7 +79,7 @@
     <div id="timeline">
       <div id="timeline_bar">
       </div>
-      <li>Started building Beard Bros site! <?php $copyYear = 2018; echo $copyYear?></li>
+      <li>Started building Beard Bros site! Sep. 2018</li>
       <li>It has survived not only five centuries, but also the leap into electronic typesetting</li>
       <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
       <li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</li>
