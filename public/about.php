@@ -50,7 +50,7 @@
     margin-top:20px;
     margin-bottom:20px;
     width:330px;
-    height:70px;
+    height:80px;
     background-color:#A1A1A1;
     padding:15px;
     box-sizing:border-box;
