@@ -11,7 +11,6 @@
 
   #wrapper{
     margin:0 auto;
-    padding-bottom:500px;
     text-align:center;
     width:995px;
   }
