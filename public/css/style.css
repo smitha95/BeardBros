@@ -6,6 +6,14 @@ nav.navbar-inverse {
   background-color: #2A3132;
 }
 
+.navbar .navbar-nav li > a{
+  color: #90AFC5 !important;
+}
+
+.navbar .navbar-brand {
+color: #90AFC5 !important;
+}
+
 
 #footer {
   color: #ffffff;
