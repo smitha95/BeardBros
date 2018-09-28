@@ -8,4 +8,6 @@
     I take care of the back end development. <br>
     together we created the Beard Bros!</p>
 
+
+
 <?php include 'templates/footer.php'; ?>
