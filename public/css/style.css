@@ -70,6 +70,7 @@
   color: #90AFC5;
 }
 
+
 body {
   background-color: #90ADC5;
   font-family: Georgia;
@@ -120,6 +121,14 @@ h1 {
   text-align: center;
   color: #2A3132;
   font-weight: bold;
+  padding-top: 10px;
+}
+
+h4 {
+  text-align: center;
+  color: #2A3132;
+  font-weight: bold;
+  margin-top: 0px;
 }
 
 h1 > a {
@@ -127,10 +136,6 @@ h1 > a {
   font-weight: bold;
 }
 
-.center-block {
-  width: 35rem;
-  padding: 1rem;
-}
 
 span.center_span {
   display: block;
