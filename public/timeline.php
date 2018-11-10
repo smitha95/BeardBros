@@ -6,7 +6,7 @@
     padding:0px;
     /*text-align:center;*/
     width:100%;
-    font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+    font-family: "Georgia","Helvetica Neue",Helvetica,Arial,Sans-Serif;
   }
 
   #wrapper{
@@ -27,7 +27,7 @@
   #timeline{
     position:relative;
     width:700px;
-    height:400px;
+    height:800px;
     float:left;
     margin-left:145px;
   }
@@ -49,19 +49,20 @@
     margin-top:20px;
     margin-bottom:20px;
     width:330px;
-    height:80px;
+    height:100px;
     background-color:#336B87;
-    padding:15px;
+    padding:25px 0;
     box-sizing:border-box;
     border-radius:10px;
     list-style-type:none;
     color: #000000;
-    font-size:15px;
+    font-size:20px;
   }
 
   #timeline li:nth-child(odd){
     margin-right:10px;
     right:-10px;
+
   }
 
   #timeline li:nth-child(even){
@@ -69,7 +70,9 @@
   }
 
   </style>
-
+<!--
+Update timelene to refelct new project and business updates
+-->
   <!-- Timeline -->
   <div id="wrapper">
     <h1>Beard Bros timeline</h1>
@@ -77,10 +80,10 @@
       <div id="timeline_bar">
       </div>
       <li>Started building Beard Bros site! Sep. 2018</li>
-      <li>It has survived not only five centuries, but also the leap into electronic typesetting</li>
-      <li>Contrary to popular belief, Lorem Ipsum is not simply random text.</li>
-      <li>Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum"</li>
+      <li>Search Functional Late Nov. 2018</li>
+      <li>Forms functioning Dec. 2018</li>
+      <li>Add Google anylitics late Dec. 2018</li>
+      <li>Site live to the public Feb. 2019</li>
     </div>
-
   </div>
 <?php include 'templates/footer.php'; ?>

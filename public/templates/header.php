@@ -1,14 +1,16 @@
 <?php include 'counter.php'; ?>
 <!doctype html>
 <html lang="en">
-
 <head>
+	<!-- Add google anylitics to header before we go live -->
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Beard Bros</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -25,14 +27,14 @@
              <span class="icon-bar"></span>
            </button>
            <!-- Brand image or name-->
-           <a class="navbar-brand" href="index.php">Beard Bros</a>
+           <a class="navbar-brand" href="index.php">Beard Bros</a><!-- remove name when logo is finished-->
          </div>
 
          <!-- Collect the nav links, forms, and other content for toggling -->
          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
            <ul class="nav navbar-nav">
              <li><a href="index.php">Home</a></li>
-             <li><a href="products.php">Products</a></li>
+             <li><a href="services.php">Services</a></li>
 						 <li><a href="customers.php">Customers</a></li>
            </ul>
 					 <ul class="nav navbar-nav navbar-right">
@@ -43,14 +45,17 @@
 											<a href="about.php">About</a>
 											<a href="austin.php">Austin</a>
 											<a href="isaac.php">Isaac</a>
-											<hr style="border-top: 1px dashed #763626;">
+											<hr style="border-top: 1px dashed #DCDCDC;">
 											<a href="timeline.php">Timeline</a>
 										</div>
 								</div>
 							</li>
 					 		<li><a href="blog.php">Blog</a></li>
-					 		<li><a href="contact.php">Contact</a></li>
+					 		<li><a href="contact.php">Contact Us</a></li>
 						</ul>
+						<!--
+						Use googles CSE(Custome Search Engine) to build search for site.
+						-->
 						<form class="navbar-form navbar-right">
 							<div class="form-group">
 								<input type="text" class="form-control" placeholder="Search">
