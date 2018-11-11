@@ -1,0 +1,34 @@
+
+## TO DO ##
+
+Upgrade security
+
+Build logo for site
+
+Build "Services" page
+
+Build "Customers" page
+
+Build Search form using googles CSE (Find alternative to CSE for site search)
+
+Build "About" page for BB
+
+Add "About Me" information
+
+Find new timeline to use for "Timeline" ( possible new timeline https://tutorialzine.com/2010/01/advanced-event-timeline-with-php-css-jquery)
+
+Move all timeline data into an SQL DB
+
+Build working "Blog" page
+
+Migrate to dynamic site
+
+## Version 1 ##
+
+Version 1 Contact form finished
+
+
+
+
+
+## Version 2 ##
