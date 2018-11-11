@@ -1,4 +1,5 @@
 <?php
+
 /*
  *  CONFIGURE EVERYTHING HERE
  */
