@@ -25,7 +25,7 @@ Migrate to dynamic site
 
 ## Version 1 ##
 
-Version 1 Contact form finished
+Contact form finished
 
 
 
