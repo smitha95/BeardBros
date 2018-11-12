@@ -1,0 +1,169 @@
+* {
+  font-family: 'Noto Serif', serif;
+}
+
+/* Defualt navbar styling */
+.navbar-default {
+  background-color: #2A3132;
+  border-color: #A9A9A9;
+  font-family: 'Noto Serif', serif;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: #90AFC5;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a #336B87 background color to navbar links on hover */
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #336B87;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2A3132;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  float: none;
+  color: #90AFC5;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change text elements in navbar */
+.navbar-default .navbar-nav > li > a {
+  color: #90AFC5;
+  font-size: 16px;
+  padding: 14px 16px;
+}
+
+/* Adds blue color to hovor */
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #336B87;
+  color: #90AFC5;
+}
+
+body {
+  background-color: #90ADC5;
+  font-family: Georgia;
+  padding-bottom: 5rem;
+}
+
+.form-control {
+  padding: 0 20px;
+}
+
+.btn-default {
+  color: #90AFC5;
+  background-color: #2A3132;
+  border-color: #A9A9A9;
+  margin-left: 2.5rem;
+}
+
+.btn-default:hover {
+  color: #90AFC5;
+  background-color: #336B87;
+  border-color: #763626;
+}
+
+#footer {
+  color: #DCDCDC;
+  text-align: center;
+  float: none;
+  padding-top: 1rem;
+}
+
+.com-md-4 {
+  column-width: 60px;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  text-align: center;
+  color: #2A3132;
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+h1 > a {
+  color: #2A3132;
+  font-weight: bold;
+}
+
+
+span.center_span {
+  display: block;
+  text-align: center;
+  color: #2A3132;
+  font-weight: bold;
+}
+
+p.text-box {
+  color: #DCDCDC;
+  font-family: 'Noto Serif', serif;
+  font-size: 20px;
+  width: 100%;
+  height: 60%;
+  padding: 1rem;
+  background-color: #336B87;
+  border: 2px solid #2A3132;
+  border-radius: 5px;
+  /*outline: 2px solid #000000;*/
+}
+
+/* Style contact form */
+form.contact{
+  color: #DCDCDC;
+  text-align: center;
+  /*text-shadow: -1px -1px 0 #2A3132, 1px -1px 0 #2A3132, -1px 1px 0 #2A3132, 1px 1px 0 #2A3132;
+  /*text-shadow: 1px 1px 1px #90ADC5;*/
+  font-family: 'Noto Serif', serif;
+  font-size: 18px;
+  width: 100%;
+  height: 60%;
+  /*margin-left: 35rem;*/
+  padding: 1rem;
+  background-color: #336B87;
+  border: 2px solid #2A3132;
+  border-radius: 5px;
+}
+p.contact{
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+textarea.contact {
+  resize: none;
+}
