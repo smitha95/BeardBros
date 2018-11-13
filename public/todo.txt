@@ -23,6 +23,8 @@ Build working "Blog" page
 
 Migrate to dynamic site
 
+Create MYSQL DB for server
+
 ## Version 1 ##
 
 Contact form finished

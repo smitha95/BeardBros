@@ -17,8 +17,10 @@
   color: #90AFC5;
   padding: 14px 16px;
   background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
+  font-family: inherit;
+  /* Important for vertical align on mobile phones */
+  margin: 0;
+  /* Important for vertical align on mobile phones */
 }
 
 /* Add a #336B87 background color to navbar links on hover */
@@ -32,7 +34,7 @@
   position: absolute;
   background-color: #2A3132;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
   z-index: 1;
 }
 
@@ -52,14 +54,14 @@
 }
 
 /* Change text elements in navbar */
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
   color: #90AFC5;
   font-size: 16px;
   padding: 14px 16px;
 }
 
 /* Adds blue color to hovor */
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav>li>a:hover {
   background-color: #336B87;
   color: #90AFC5;
 }
@@ -117,11 +119,10 @@ h1 {
   padding-top: 10px;
 }
 
-h1 > a {
+h1>a {
   color: #2A3132;
   font-weight: bold;
 }
-
 
 span.center_span {
   display: block;
@@ -144,7 +145,7 @@ p.text-box {
 }
 
 /* Style contact form */
-form.contact{
+form.contact {
   color: #DCDCDC;
   text-align: center;
   /*text-shadow: -1px -1px 0 #2A3132, 1px -1px 0 #2A3132, -1px 1px 0 #2A3132, 1px 1px 0 #2A3132;
@@ -159,11 +160,13 @@ form.contact{
   border: 2px solid #2A3132;
   border-radius: 5px;
 }
-p.contact{
-    font-family: 'Noto Serif', serif;
-    font-weight: bold;
-    font-size: 22px;
+
+p.contact {
+  font-family: 'Noto Serif', serif;
+  font-weight: bold;
+  font-size: 22px;
 }
+
 textarea.contact {
   resize: none;
 }
