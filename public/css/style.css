@@ -161,6 +161,16 @@ form.contact {
   border-radius: 5px;
 }
 
+.contact-button {
+  background-color: #2A3132;
+}
+
+.contact-button:hover {
+  color: #90AFC5;
+  background-color: #336B87;
+  border-color: #763626;
+}
+
 p.contact {
   font-family: 'Noto Serif', serif;
   font-weight: bold;

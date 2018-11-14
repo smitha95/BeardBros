@@ -1,5 +1,5 @@
 <?php include 'templates/header.php'; ?>
 
-  <h1>Blog</h1>
-  
+<h1>Customers</h1>
+
 <?php include 'templates/footer.php'; ?>
