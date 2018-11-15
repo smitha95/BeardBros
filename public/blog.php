@@ -9,7 +9,7 @@ date posted
 -->
 
 <?php
-$mysqli = new mysqli("ec2-54-245-45-178.us-west-2.compute.amazonaws.com", "root", "S?sPaKLsAmeT9$chu&_*", "Notes");
+$mysqli = new mysqli("172.31.30.126", "root", "S?sPaKLsAmeT9$chu&_*", "Notes");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
