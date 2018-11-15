@@ -126,4 +126,5 @@
     </div>
   </div>
 </div><br><br><br>
+
 <?php include 'templates/footer.php'; ?>

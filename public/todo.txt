@@ -25,6 +25,8 @@ Migrate to dynamic site
 
 Create MYSQL DB for server
 
+Create Email when we figure out our domain name
+
 ## Version 1 ##
 
 Contact form finished
