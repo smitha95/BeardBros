@@ -9,7 +9,7 @@ date posted
 -->
 
 <?php
-$mysqli = new mysqli("localhost:8889", "db_connect", "S?sPaKLsAmeT9$chu&_*", "Notes");
+$mysqli = new mysqli("localhost:3306", "root", "S?sPaKLsAmeT9$chu&_*", "notes");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
@@ -20,7 +20,7 @@ if (isset($_GET['message'])) {
     $message=$mysqli->real_escape_string($_GET['message']);
     $date=date('Y-m-d H:i:s');
 
-    $sql="INSERT INTO forum(id, user, message, date) VALUES(0,'$user','$message','$date')";
+    $sql="INSERT INTO notes(id, user, message, date) VALUES(0,'$user','$message','$date')";
     $mysqli->query($sql);
 }
 
@@ -38,7 +38,7 @@ if (isset($_GET['message'])) {
 <h2>Notes</h2>
 
 <?php
-$sql = "SELECT * FROM forum";
+$sql = "SELECT * FROM notes";
 $result = $mysqli->query($sql);
 
 while($row = $result->fetch_assoc()) {
