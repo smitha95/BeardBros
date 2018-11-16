@@ -9,7 +9,7 @@ date posted
 -->
 
 <?php
-$mysqli = new mysqli("172.31.30.126", "db_connect", "S?sPaKLsAmeT9$chu&_*", "Notes");
+$mysqli = new mysqli("localhost:8889", "db_connect", "S?sPaKLsAmeT9$chu&_*", "Notes");
 if ($mysqli->connect_errno) {
     echo "Failed to connect to MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
 }
@@ -35,7 +35,7 @@ if (isset($_GET['message'])) {
 </head>
 
 <body>
-<h2>My First Forum</h2>
+<h2>Notes</h2>
 
 <?php
 $sql = "SELECT * FROM forum";
